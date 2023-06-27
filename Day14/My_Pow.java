@@ -1,5 +1,26 @@
 package Day14;
 
+/* Leetcode Problem 50 */
+
+// Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+
+// Example 1:
+
+// Input: x = 2.00000, n = 10
+// Output: 1024.00000
+
+// Algorithm
+
+/**
+ * If n is 0 return 1
+ * if x is 1 return 1
+ * if x is 0 return 0
+ * is n is negetive reciprocal x
+ * Special Case if n is less than integer min value then do x square and divide n by 2
+ * and also multiply n to -1
+ * At Last a Special Loop explained below Have a look at that
+ */
+
 import java.util.Scanner;
 
 class Solution {
