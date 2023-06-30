@@ -26,6 +26,7 @@ import java.util.Scanner;
  * END
  */
 
+ /*=========================================================================================================== */
 
 class Solution {
     public boolean isPalindrome(String s) {
