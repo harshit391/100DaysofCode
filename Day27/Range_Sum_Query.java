@@ -57,6 +57,7 @@ class NumArray {
  * int param_1 = obj.sumRange(left,right);
  */
 
+
 public class Range_Sum_Query {
     
 }
