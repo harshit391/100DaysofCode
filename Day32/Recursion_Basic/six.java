@@ -14,9 +14,10 @@ public class six {
 
         if (x==1 || n==0) return 1;
         
-        else x*=x;
-
-        return power(x, n-1);
+        int a = power(x, n-1);
+        int xn = x * a;
+        
+        return xn;
     }
 
     public static void main(String[] args)
