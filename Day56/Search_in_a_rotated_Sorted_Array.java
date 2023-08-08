@@ -1,4 +1,4 @@
-package Day66;
+package Day56;
 
 // Leetcode Problem 33 
 
