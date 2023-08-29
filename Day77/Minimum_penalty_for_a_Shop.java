@@ -62,37 +62,6 @@ class Solution {
         // Return early hour 
         return eh;
     }
-}class Solution {
-    public int bestClosingTime(String customers) {
-        char[] k = customers.toCharArray();
-
-        // To Count minimum min = 0 ( Sometime penalty is 0 )
-        // Current gives us the current penalty count
-        // Eh is the early hour track
-        int min = 0,current = 0,eh = 0;
-
-        for (int i=0;i<k.length;i++)
-        {
-            // If character is y decrease our penalty 
-            if (k[i]=='Y') current--;
-
-            // IF character is n increase our penalty
-            if (k[i]=='N') current++;
-
-            // If current count is less than min 
-            if (current < min)
-            {
-                // Set early hour to current hour i.e. i + 1
-                eh = i+1;
-                // Set minimum to current
-                min = current;
-            }
-
-        }
-
-        // Return early hour 
-        return eh;
-    }
 }
 
 public class Minimum_penalty_for_a_Shop {
