@@ -1,6 +1,6 @@
 # 100 Days of Code - DSA in Java
 
-A structured journey through **Data Structures and Algorithms** using Java, solving **230+ LeetCode problems** over 87 days (Day 13 - Day 99). This repository documents daily problem-solving practice covering topics from basic string manipulation to advanced algorithms like dynamic programming, sliding window, and stack-based problems.
+A structured journey through **Java fundamentals and Data Structures & Algorithms**, solving **230+ LeetCode problems** over 99 days. The first 12 days focus on core Java concepts — JVM, JDK, OOP principles, classes, objects, inheritance, polymorphism, and more — building a strong foundation before diving into problem-solving from Day 13 onward.
 
 ## Overview
 
@@ -8,12 +8,14 @@ A structured journey through **Data Structures and Algorithms** using Java, solv
 |--------|--------|
 | **Language** | Java |
 | **Problems Solved** | 230+ |
-| **Days Tracked** | 87 (Day 13 - Day 99) |
-| **Source** | LeetCode |
-| **Difficulty Range** | Easy to Hard |
+| **Days Tracked** | 99 (Day 1 - Day 99) |
+| **Source** | LeetCode (Day 13+) |
+| **Difficulty Range** | Fundamentals to Hard |
 
 ## Topics Covered
 
+- **Java Core** - JVM, JDK, JRE, data types, variables, operators, control flow, loops
+- **OOP Concepts** - Classes, objects, constructors, inheritance, polymorphism, abstraction, encapsulation
 - **Strings** - Reversal, anagrams, pattern matching, compression, palindromes
 - **Arrays** - Two pointers, prefix sum, matrix operations, spiral traversal
 - **Sorting** - Bubble sort, insertion sort, selection sort, merge sort, quick sort, cyclic sort
@@ -30,6 +32,7 @@ A structured journey through **Data Structures and Algorithms** using Java, solv
 
 ```
 100DaysofCode/
+├── Day 1-12          # Core Java & OOP theory (no code files)
 ├── Day13/
 │   ├── InttoRoman.java
 │   └── RomantoInt.java
@@ -54,6 +57,28 @@ Each Java file contains:
 - Main method with sample input/output
 
 ## Daily Progress Log
+
+<details>
+<summary><strong>Day 1 - Day 12: Java Core & OOP Fundamentals</strong></summary>
+
+| Day | Topics |
+|-----|--------|
+| Day 1 | Introduction to Java, JVM, JDK, JRE, how Java works, platform independence |
+| Day 2 | Data types, variables, type casting, literals, operators (arithmetic, relational, logical) |
+| Day 3 | Control flow — if-else, switch-case, ternary operator |
+| Day 4 | Loops — for, while, do-while, break, continue, nested loops |
+| Day 5 | Arrays — declaration, initialization, traversal, multidimensional arrays |
+| Day 6 | Methods — definition, parameters, return types, method overloading |
+| Day 7 | Introduction to OOP — classes, objects, constructors, `this` keyword |
+| Day 8 | Encapsulation — access modifiers (private, public, protected, default), getters & setters |
+| Day 9 | Inheritance — `extends`, `super` keyword, constructor chaining, method overriding |
+| Day 10 | Polymorphism — compile-time (method overloading), runtime (method overriding), upcasting & downcasting |
+| Day 11 | Abstraction — abstract classes, interfaces, `implements` keyword, multiple inheritance via interfaces |
+| Day 12 | `static` keyword, `final` keyword, `String` class basics, wrapper classes, input handling with `Scanner` |
+
+> **Note:** Days 1-12 were focused on learning core Java theory and OOP concepts. No LeetCode problems were solved during this phase — the goal was to build a strong foundation before jumping into DSA.
+
+</details>
 
 <details>
 <summary><strong>Day 13 - Day 20: Strings & Fundamentals</strong></summary>
